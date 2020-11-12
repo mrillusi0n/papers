@@ -61,11 +61,11 @@ h1.main {
 .paper {
   position: absolute;
   width: 80vmin;
-  height: 82vh;
+  height: 72vh;
   box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.16);
   left: 50%;
   top: 50%;
-  transform: translate(-60%, 48%) rotate(calc(var(--f) * 24deg));
+  transform: translate(-60%, 64%) rotate(calc(var(--f) * 24deg));
   cursor: pointer;
   transition: transform 320ms;
 }
@@ -79,10 +79,10 @@ h1.main {
   background: #FFECBB;
 }
 .paper--selected {
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -45%);
 }
 .paper--hovered {
-  transform: translate(-60%, 45%) rotate(calc(var(--f) * 22deg));
+  transform: translate(-60%, 62%) rotate(calc(var(--f) * 22deg));
 }
 .paper--out {
   transform: translateY(80%);
