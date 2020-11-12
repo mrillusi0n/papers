@@ -1,0 +1,6 @@
+# project settings
+prepros.config
+.vscode/
+
+# ignore scss (for now)
+*.scss
