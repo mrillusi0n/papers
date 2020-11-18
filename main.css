@@ -39,6 +39,7 @@ main {
 
 h1.main {
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .caption {
@@ -79,7 +80,7 @@ h1.main {
   background: #FFECBB;
 }
 .paper--selected {
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -50%);
 }
 .paper--hovered {
   transform: translate(-60%, 62%) rotate(calc(var(--f) * 22deg));
