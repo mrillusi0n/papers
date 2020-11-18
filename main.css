@@ -28,12 +28,10 @@ main {
   align-self: center;
   transition: transform 320ms;
   text-align: center;
-  transition: transform 320ms;
+  transition: opacity 320ms, transform 320ms;
 }
 .header--out {
   transform: translateY(-12vh);
-}
-.header--out p {
   opacity: 0;
 }
 
@@ -44,7 +42,6 @@ h1.main {
 
 .caption {
   font-size: 1.2rem;
-  transition: opacity 320ms;
 }
 
 .cta {
