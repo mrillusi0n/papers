@@ -51,6 +51,7 @@ h1.main {
   place-self: start end;
   transition: transform 320ms;
   text-align: center;
+  font-family: cursive;
 }
 .cta--out {
   transform: translateX(60vmax);
